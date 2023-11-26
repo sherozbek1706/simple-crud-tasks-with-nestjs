@@ -1,0 +1,14 @@
+### GET
+GET  http://localhost:5000/tasks/
+
+### POST
+
+POST http://localhost:5000/tasks
+Content-Type: application/json
+
+{
+  "name":"Record a video" 
+}
+
+### TOGGLE
+PATCH http://localhost:5000/tasks/4
